@@ -1,0 +1,78 @@
+.model-delete{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+}
+.model-container{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+}
+.show {
+    opacity: 1;
+    pointer-events: auto;
+    justify-content: center;
+}
+.model {
+    width: 700px;
+    height: 300px;
+    background-color:rgb(242, 243, 244);
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 3px 3px 3px black (0, 0, 0, 2);
+}
+.modelheader {
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 5px;   
+}
+
+.delete-header {
+    justify-content: center;
+    padding: 25px;
+}
+.modeltitle {
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+}
+.closemodel{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.closemodel:hover {
+    cursor: pointer;
+}
+
+hr{
+    margin: 5px 0;
+}
+.d-none {
+    display: none;
+}
+
+.descript{
+    width: 100%;
+}
+.descript input {
+    width: 250px;
+    border-radius: 3px;
+}
